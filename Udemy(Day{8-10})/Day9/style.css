@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+*{
+    box-sizing: border-box;
+}
+body {
+    /* background-image: url('https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'); */
+    /* background-color: rgb(99, 124, 208); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: chartreuse;
+    font-family: 'Orelega One', cursive;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.btn{
+    background-color: aqua;
+    border-radius: 5px;
+    border: none;
+    color: gray;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.5;
+}
+
+.btn:focus{
+    outline: none;
+}
+
